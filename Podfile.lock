@@ -1,0 +1,92 @@
+PODS:
+  - AWSCognito (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSCore (2.4.16)
+  - AWSLambda (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSS3 (2.4.16):
+    - AWSCore (= 2.4.16)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FBSDKCoreKit (4.18.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.18.0):
+    - FBSDKCoreKit
+  - MRProgress (0.8.3):
+    - MRProgress/ActivityIndicator (= 0.8.3)
+    - MRProgress/Blur (= 0.8.3)
+    - MRProgress/Circular (= 0.8.3)
+    - MRProgress/Icons (= 0.8.3)
+    - MRProgress/NavigationBarProgress (= 0.8.3)
+    - MRProgress/Overlay (= 0.8.3)
+  - MRProgress/ActivityIndicator (0.8.3):
+    - MRProgress/Stopable
+  - MRProgress/Blur (0.8.3):
+    - MRProgress/Helper
+  - MRProgress/Circular (0.8.3):
+    - MRProgress/Helper
+    - MRProgress/ProgressBaseClass
+    - MRProgress/Stopable
+  - MRProgress/Helper (0.8.3)
+  - MRProgress/Icons (0.8.3)
+  - MRProgress/NavigationBarProgress (0.8.3):
+    - MRProgress/ProgressBaseClass
+  - MRProgress/Overlay (0.8.3):
+    - MRProgress/ActivityIndicator
+    - MRProgress/Blur
+    - MRProgress/Circular
+    - MRProgress/Helper
+    - MRProgress/Icons
+  - MRProgress/ProgressBaseClass (0.8.3)
+  - MRProgress/Stopable (0.8.3):
+    - MRProgress/Helper
+  - Rooftop (0.5.0):
+    - AWSCognito (~> 2.4)
+    - AWSLambda (~> 2.4)
+    - AWSS3 (~> 2.4)
+    - Bolts/Tasks (~> 1.8)
+  - RooftopFacebookUtils (0.5.0):
+    - FBSDKCoreKit (~> 4.10)
+    - FBSDKLoginKit (~> 4.10)
+    - Rooftop (~> 0.5.0)
+
+DEPENDENCIES:
+  - MRProgress
+  - Rooftop (from `https://github.com/Rooftoptek/Rooftop-SDK-xOS.git`, tag `0.5.0`)
+  - RooftopFacebookUtils (from `https://github.com/Rooftoptek/RooftopFacebookUtils-xOS.git`, tag `0.5.0`)
+
+EXTERNAL SOURCES:
+  Rooftop:
+    :git: https://github.com/Rooftoptek/Rooftop-SDK-xOS.git
+    :tag: 0.5.0
+  RooftopFacebookUtils:
+    :git: https://github.com/Rooftoptek/RooftopFacebookUtils-xOS.git
+    :tag: 0.5.0
+
+CHECKOUT OPTIONS:
+  Rooftop:
+    :git: https://github.com/Rooftoptek/Rooftop-SDK-xOS.git
+    :tag: 0.5.0
+  RooftopFacebookUtils:
+    :git: https://github.com/Rooftoptek/RooftopFacebookUtils-xOS.git
+    :tag: 0.5.0
+
+SPEC CHECKSUMS:
+  AWSCognito: 666dba6eb65ac27faad79e83febf25630913aefc
+  AWSCore: 7c3c129991e6387bcbad7132bc3661e7135754db
+  AWSLambda: 87ec46e9fc53409dcbe28b70a6ac86a27b87275b
+  AWSS3: fef6aa8f8f625df8f67f1b6574fe761f3a4ddc99
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FBSDKCoreKit: 15fef8804a4629f98c6f4e55e81a76c9d725d85e
+  FBSDKLoginKit: 6773073e970b2b15fb12e451ce7f11da0532b880
+  MRProgress: 16de7cc9f347e8846797a770db102a323fe7ef09
+  Rooftop: 88066baabba3ffbe2dce51f8c2af323cd06bc97e
+  RooftopFacebookUtils: 0c68d4d1ecca2d2bf0d74a6e5c8aa70d347daece
+
+PODFILE CHECKSUM: d6fe25f8444f05deff7b60f44e9f1d9cae2cf377
+
+COCOAPODS: 1.2.0.beta.1
