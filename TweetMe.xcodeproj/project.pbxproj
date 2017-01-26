@@ -16,6 +16,16 @@
 		14C6A19E1DF3174F00A9BD8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C6A19C1DF3174F00A9BD8C /* Main.storyboard */; };
 		14C6A1A01DF3174F00A9BD8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C6A19F1DF3174F00A9BD8C /* Assets.xcassets */; };
 		14C6A1A31DF3174F00A9BD8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C6A1A11DF3174F00A9BD8C /* LaunchScreen.storyboard */; };
+		14D314541E3A3CA10024E7B2 /* WorkSans-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 14D3144A1E3A3CA10024E7B2 /* WorkSans-Black.otf */; };
+		14D314551E3A3CA10024E7B2 /* WorkSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 14D3144B1E3A3CA10024E7B2 /* WorkSans-Bold.otf */; };
+		14D314561E3A3CA10024E7B2 /* WorkSans-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 14D3144C1E3A3CA10024E7B2 /* WorkSans-ExtraBold.otf */; };
+		14D314571E3A3CA10024E7B2 /* WorkSans-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 14D3144D1E3A3CA10024E7B2 /* WorkSans-ExtraLight.otf */; };
+		14D314581E3A3CA10024E7B2 /* WorkSans-Hairline.otf in Resources */ = {isa = PBXBuildFile; fileRef = 14D3144E1E3A3CA10024E7B2 /* WorkSans-Hairline.otf */; };
+		14D314591E3A3CA10024E7B2 /* WorkSans-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 14D3144F1E3A3CA10024E7B2 /* WorkSans-Light.otf */; };
+		14D3145A1E3A3CA10024E7B2 /* WorkSans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 14D314501E3A3CA10024E7B2 /* WorkSans-Medium.otf */; };
+		14D3145B1E3A3CA10024E7B2 /* WorkSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 14D314511E3A3CA10024E7B2 /* WorkSans-Regular.otf */; };
+		14D3145C1E3A3CA10024E7B2 /* WorkSans-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 14D314521E3A3CA10024E7B2 /* WorkSans-SemiBold.otf */; };
+		14D3145D1E3A3CA10024E7B2 /* WorkSans-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 14D314531E3A3CA10024E7B2 /* WorkSans-Thin.otf */; };
 		CFF06FFBB8596F2D346ADCB6 /* Pods_TweetMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F93AB35451CDC60534F498CD /* Pods_TweetMe.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +47,16 @@
 		14C6A19F1DF3174F00A9BD8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14C6A1A21DF3174F00A9BD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14C6A1A41DF3174F00A9BD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D3144A1E3A3CA10024E7B2 /* WorkSans-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Black.otf"; sourceTree = "<group>"; };
+		14D3144B1E3A3CA10024E7B2 /* WorkSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Bold.otf"; sourceTree = "<group>"; };
+		14D3144C1E3A3CA10024E7B2 /* WorkSans-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-ExtraBold.otf"; sourceTree = "<group>"; };
+		14D3144D1E3A3CA10024E7B2 /* WorkSans-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-ExtraLight.otf"; sourceTree = "<group>"; };
+		14D3144E1E3A3CA10024E7B2 /* WorkSans-Hairline.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Hairline.otf"; sourceTree = "<group>"; };
+		14D3144F1E3A3CA10024E7B2 /* WorkSans-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Light.otf"; sourceTree = "<group>"; };
+		14D314501E3A3CA10024E7B2 /* WorkSans-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Medium.otf"; sourceTree = "<group>"; };
+		14D314511E3A3CA10024E7B2 /* WorkSans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Regular.otf"; sourceTree = "<group>"; };
+		14D314521E3A3CA10024E7B2 /* WorkSans-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-SemiBold.otf"; sourceTree = "<group>"; };
+		14D314531E3A3CA10024E7B2 /* WorkSans-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Thin.otf"; sourceTree = "<group>"; };
 		1F18919A28E1D96B523825AA /* Pods-TweetMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweetMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-TweetMe/Pods-TweetMe.release.xcconfig"; sourceTree = "<group>"; };
 		CC9208B9530A1E0B1C94F1A6 /* Pods-TweetMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweetMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TweetMe/Pods-TweetMe.debug.xcconfig"; sourceTree = "<group>"; };
 		F93AB35451CDC60534F498CD /* Pods_TweetMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TweetMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +120,7 @@
 				14062EF21E331CC100288CCE /* TweetMe.entitlements */,
 				14BACFA21DF33E8500883A5F /* Model */,
 				14BACF981DF31E9200883A5F /* Controllers */,
+				14D314481E3A3C850024E7B2 /* Resources */,
 				14C6A1961DF3174F00A9BD8C /* AppDelegate.h */,
 				14C6A1971DF3174F00A9BD8C /* AppDelegate.m */,
 				14C6A19C1DF3174F00A9BD8C /* Main.storyboard */,
@@ -117,6 +138,31 @@
 				14C6A1941DF3174F00A9BD8C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14D314481E3A3C850024E7B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				14D314491E3A3C850024E7B2 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		14D314491E3A3C850024E7B2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				14D3144A1E3A3CA10024E7B2 /* WorkSans-Black.otf */,
+				14D3144B1E3A3CA10024E7B2 /* WorkSans-Bold.otf */,
+				14D3144C1E3A3CA10024E7B2 /* WorkSans-ExtraBold.otf */,
+				14D3144D1E3A3CA10024E7B2 /* WorkSans-ExtraLight.otf */,
+				14D3144E1E3A3CA10024E7B2 /* WorkSans-Hairline.otf */,
+				14D3144F1E3A3CA10024E7B2 /* WorkSans-Light.otf */,
+				14D314501E3A3CA10024E7B2 /* WorkSans-Medium.otf */,
+				14D314511E3A3CA10024E7B2 /* WorkSans-Regular.otf */,
+				14D314521E3A3CA10024E7B2 /* WorkSans-SemiBold.otf */,
+				14D314531E3A3CA10024E7B2 /* WorkSans-Thin.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		70BDBD47203E10F25F6A825D /* Frameworks */ = {
@@ -205,9 +251,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14D3145C1E3A3CA10024E7B2 /* WorkSans-SemiBold.otf in Resources */,
 				14C6A1A31DF3174F00A9BD8C /* LaunchScreen.storyboard in Resources */,
 				14C6A1A01DF3174F00A9BD8C /* Assets.xcassets in Resources */,
+				14D3145B1E3A3CA10024E7B2 /* WorkSans-Regular.otf in Resources */,
 				14C6A19E1DF3174F00A9BD8C /* Main.storyboard in Resources */,
+				14D314561E3A3CA10024E7B2 /* WorkSans-ExtraBold.otf in Resources */,
+				14D314541E3A3CA10024E7B2 /* WorkSans-Black.otf in Resources */,
+				14D314581E3A3CA10024E7B2 /* WorkSans-Hairline.otf in Resources */,
+				14D3145D1E3A3CA10024E7B2 /* WorkSans-Thin.otf in Resources */,
+				14D314591E3A3CA10024E7B2 /* WorkSans-Light.otf in Resources */,
+				14D314571E3A3CA10024E7B2 /* WorkSans-ExtraLight.otf in Resources */,
+				14D3145A1E3A3CA10024E7B2 /* WorkSans-Medium.otf in Resources */,
+				14D314551E3A3CA10024E7B2 /* WorkSans-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TweetMe/TweetMe.entitlements;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TweetMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.rftp.TweetMe;
@@ -409,6 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TweetMe/TweetMe.entitlements;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TweetMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.rftp.TweetMe;

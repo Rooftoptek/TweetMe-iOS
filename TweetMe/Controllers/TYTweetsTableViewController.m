@@ -23,6 +23,13 @@
 
 @end
 
+@interface TYTweetsTableViewController (UIScrollViewDelegate)<UIScrollViewDelegate>
+@end
+
+@implementation TYTweetsTableViewController (UIScrollViewDelegate)
+
+@end
+
 @implementation TYTweetsTableViewController
 
 - (void)viewDidLoad {

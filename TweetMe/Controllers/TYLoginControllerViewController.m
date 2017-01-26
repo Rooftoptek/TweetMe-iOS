@@ -21,6 +21,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *signupButton;
 @property (assign, nonatomic) BOOL wantSignup;
 @property (weak, nonatomic) IBOutlet UIButton *wantSignupButton;
+@property (strong, nonatomic) IBOutlet UIToolbar *toolBar;
 
 @end
 
@@ -65,6 +66,8 @@
     [super viewDidLoad];
     self.wantSignup = NO;
     // Do any additional setup after loading the view.
+    self.usernameTextField.inputAccessoryView = self.toolBar;
+    self.passwordTextField.inputAccessoryView = self.toolBar;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
