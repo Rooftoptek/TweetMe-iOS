@@ -35,6 +35,7 @@
         [self.wantSignupButton
          setTitle:@"I already have an account"
          forState:UIControlStateNormal];
+        self.passwordTextField.returnKeyType = UIReturnKeyJoin;
     }
     else {
         self.wantSignup = YES;
@@ -43,6 +44,7 @@
         [self.wantSignupButton
          setTitle:@"I don't have an account"
          forState:UIControlStateNormal];
+        self.passwordTextField.returnKeyType = UIReturnKeyGo;
     }
 }
 
