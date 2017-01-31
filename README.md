@@ -37,34 +37,32 @@ pod install
 Fill free to Login, logout, and message everybody!
 But wait, what is this error you get when you tap on a row?
 
-This is the application trying to call a cloud function. Since no function has been defined yet, it's letting you know that there is a problem.
+This is the application trying to invoke a RAPID (Rooftop API Definition) function. Since no function has been defined yet, it's letting you know that there is a problem.
 
-Let's add some function in the cloud then.
+Let's add a RAPID from the console.
 
-#### 7) Cloud clode
-- In the console, select the `Code` tab on the left
-- Click on the `Add code` button
-- Name the file `message`
+#### 7) RAPID
+- In the console, select the `{R}Code` tab on the left
+- Click on the `RAPID` section to expand it
+- Click on the `+ Add` button
+- Name the definition `message`
 - Enter the following code:
 
 ```ruby
-Rooftop.Cloud.define("message",
-function (req, res) {
-    res.success("Rooftop, your serverless backend\nin the cloud.\nYou own it, we manage it!");
-});
+module.exports = function(input) {
+  return `Your serverless backend
+in the cloud.
+
+You own it, we manage it!`;
+}
 ```
 - Click the `Save` button
-- Click the green `Deploy` button in the side bar
+- Click the `Deploy` button in the side bar
 
 That's it!
 
 Now, when you tap a row you get a message from your serverless backend in the cloud.
 
-## Learn More
+## Push notifications
 
-- Read the [iOS Guides](https://parse.com/docs/ios_guide#ui/iOS)
-- Browse official [API Reference](https://parse.com/docs/ios/api/)
-- Follow few [tutorials](https://parse.com/tutorials/)
-
-## Contributing
-See the CONTRIBUTING file for how to help out.
+We will update this section very soon to include push notifications.
