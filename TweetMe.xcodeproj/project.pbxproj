@@ -216,6 +216,7 @@
 				TargetAttributes = {
 					14C6A18F1DF3174F00A9BD8C = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NF35GG74E9;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -451,7 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TweetMe/TweetMe.entitlements;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = NF35GG74E9;
 				INFOPLIST_FILE = TweetMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.rftp.TweetMe;
@@ -466,7 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = TweetMe/TweetMe.entitlements;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = NF35GG74E9;
 				INFOPLIST_FILE = TweetMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.rftp.TweetMe;

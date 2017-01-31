@@ -29,7 +29,7 @@
     // Override point for customization after application launch.
     RooftopConfiguration *configuration = [RooftopConfiguration configurationWithBlock:^(id<RooftopMutableClientConfiguration> configuration) {
         configuration.applicationId = @"";
-        configuration.clientKey = @"";
+        configuration.clientKey = @"clientKey";
         configuration.cognitoRegion = AWSRegionUSEast1;
         configuration.cognitoPoolId = @"";
         configuration.localDatastoreEnabled = YES;

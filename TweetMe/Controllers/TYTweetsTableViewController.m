@@ -12,6 +12,8 @@
 #import <MRProgress/MRProgress.h>
 #import "TweetModel.h"
 
+#import <RooftopFacebookUtils/RooftopFacebookUtils.h>
+
 @interface TYTweetsTableViewController ()
 
 @property (strong, nonatomic) NSArray<TweetModel*> *tweets;
@@ -164,7 +166,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     [MRProgressOverlayView showOverlayAddedTo:self.view animated:YES];
-    [RTCloud callFunctionInBackground:@"message" withParameters:nil block:^(id  _Nullable object, NSError * _Nullable error) {
+    [RTRapid invokeInBackground:@"message" withParameters:nil block:^(id  _Nullable object, NSError * _Nullable error) {
         [MRProgressOverlayView dismissOverlayForView:self.view animated:YES];
         if (object) {
             [self showAlertViewWithText:object title:@"Rooftop"];
