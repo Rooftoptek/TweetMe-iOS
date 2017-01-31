@@ -1,11 +1,11 @@
 PODS:
-  - AWSCognito (2.5.0):
-    - AWSCore (= 2.5.0)
-  - AWSCore (2.5.0)
-  - AWSLambda (2.5.0):
-    - AWSCore (= 2.5.0)
-  - AWSS3 (2.5.0):
-    - AWSCore (= 2.5.0)
+  - AWSCognito (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSCore (2.4.16)
+  - AWSLambda (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSS3 (2.4.16):
+    - AWSCore (= 2.4.16)
   - Bolts (1.8.4):
     - Bolts/AppLinks (= 1.8.4)
     - Bolts/Tasks (= 1.8.4)
@@ -45,10 +45,10 @@ PODS:
   - MRProgress/Stopable (0.8.3):
     - MRProgress/Helper
   - Rooftop (0.5.0):
-    - AWSCognito (~> 2.4)
-    - AWSLambda (~> 2.4)
-    - AWSS3 (~> 2.4)
-    - Bolts/Tasks (~> 1.8)
+    - AWSCognito (~> 2.4.0)
+    - AWSLambda (~> 2.4.0)
+    - AWSS3 (~> 2.4.0)
+    - Bolts/Tasks (~> 1.8.0)
   - RooftopFacebookUtils (0.5.0):
     - FBSDKCoreKit (~> 4.10)
     - FBSDKLoginKit (~> 4.10)
@@ -76,17 +76,17 @@ CHECKOUT OPTIONS:
     :tag: 0.5.0
 
 SPEC CHECKSUMS:
-  AWSCognito: 5a1af0c4b351de1ec8d523d3ed0aecce42dd630e
-  AWSCore: e9839d27ceaa2db75934a9c418630ce63c23e347
-  AWSLambda: e191f87a47d2f7916090e4b18f6099388054a75a
-  AWSS3: 3678dd99006ff77c825fb857fc7cbaca0db848c6
+  AWSCognito: 666dba6eb65ac27faad79e83febf25630913aefc
+  AWSCore: 7c3c129991e6387bcbad7132bc3661e7135754db
+  AWSLambda: 87ec46e9fc53409dcbe28b70a6ac86a27b87275b
+  AWSS3: fef6aa8f8f625df8f67f1b6574fe761f3a4ddc99
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
   FBSDKCoreKit: 894b2b6eda6a4c8c4204e92e59cc355709ef045c
   FBSDKLoginKit: 83ca4d8f12a2022570af9fd6aacf27f6b425b99f
   MRProgress: 16de7cc9f347e8846797a770db102a323fe7ef09
-  Rooftop: 88066baabba3ffbe2dce51f8c2af323cd06bc97e
+  Rooftop: 76847ed63dd568e4a7332aee418068f7ec854ba0
   RooftopFacebookUtils: 0c68d4d1ecca2d2bf0d74a6e5c8aa70d347daece
 
-PODFILE CHECKSUM: cc03b94512d11d6e42066e58480e1579a6fa51d1
+PODFILE CHECKSUM: d6fe25f8444f05deff7b60f44e9f1d9cae2cf377
 
 COCOAPODS: 1.2.0
