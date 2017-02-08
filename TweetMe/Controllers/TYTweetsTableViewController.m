@@ -7,12 +7,16 @@
 // of patent rights can be found in the PATENTS file in the same directory.
 //
 
-#import "TYTweetsTableViewController.h"
 #import <Rooftop/Rooftop.h>
 #import <MRProgress/MRProgress.h>
+#import <RooftopFacebookUtils/RooftopFacebookUtils.h>
+
+#import "TYTweetsTableViewController.h"
+#import "TYTweetsTableViewCell.h"
+
+#import "Helper.h"
 #import "TweetModel.h"
 
-#import <RooftopFacebookUtils/RooftopFacebookUtils.h>
 
 @interface TYTweetsTableViewController ()
 
@@ -58,7 +62,27 @@
         self.navigationItem.leftBarButtonItem = self.loginButtonItem;
         self.navigationItem.rightBarButtonItem = nil;
     }
+    [self prepareNavigationBarTitleStyle];
 }
+
+- (void)prepareNavigationBarTitleStyle {
+    NSString *title = @"Tweetme";
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:title];
+    NSRange range = [title rangeOfString:@"Tweet"];
+    
+    [attributedString addAttribute:NSFontAttributeName value:[UIFont boldSystemFontOfSize:17] range:NSMakeRange(0, title.length)];
+    [attributedString addAttribute: NSForegroundColorAttributeName value:[UIColor colorWithRed:79.0/255.0 green:58.0/255.0 blue:151.0/255.0 alpha:1]range:range];
+    range = [title rangeOfString:@"me"];
+    [attributedString addAttribute: NSForegroundColorAttributeName value:[UIColor colorWithRed:240.0/255.0 green:180.0/255.0 blue:60.0/255.0 alpha:1] range:range];
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 50, 17)];
+    label.textAlignment = NSTextAlignmentCenter;
+    label.attributedText = attributedString;
+    
+    self.navigationItem.titleView = label;
+}
+
+
 
 - (void)refreshTableFromLocalStore {
     if (self.loadingFromLocal) {
@@ -155,25 +179,34 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TYTweetTableCellView"];
     NSInteger row = indexPath.row;
+    
     TweetModel *tweet = [self.tweets objectAtIndex:row];
-    cell.textLabel.text = tweet.text;
-    cell.detailTextLabel.text = [NSString stringWithFormat:@"Posted by %@ on %@", tweet.owner.username, tweet.createdAt];
+    
+    TYTweetsTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TYTweetTableCell"];
+
+    cell.tweetLabel.text = tweet.text;
+    cell.nameLabel.text = tweet.owner.username;
+    cell.dateLabel.text = [Helper formatDate:tweet.createdAt];
+
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     [MRProgressOverlayView showOverlayAddedTo:self.view animated:YES];
-    [RTRapid invokeInBackground:@"message" withParameters:nil block:^(id  _Nullable object, NSError * _Nullable error) {
+    /*[RTRapid invokeInBackground:@"message" withParameters:nil block:^(id  _Nullable object, NSError * _Nullable error) {
         [MRProgressOverlayView dismissOverlayForView:self.view animated:YES];
         if (object) {
             [self showAlertViewWithText:object title:@"Rooftop"];
         } else {
             [self showAlertViewWithText:@"Could not call function" title:@"Error"];
         }
-    }];
+    }];*/
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 87.0;
 }
 
 - (IBAction)logoutButtonPressed:(id)sender {
