@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04F438F71E49E16F0089A544 /* TYTweetsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F438F61E49E16F0089A544 /* TYTweetsTableViewCell.m */; };
-		04F438FB1E4A29F00089A544 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F438FA1E4A29F00089A544 /* Helper.m */; };
+		04CA47CE1E4B755800B78404 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA47CD1E4B755800B78404 /* Helper.m */; };
+		04CA47D21E4B756100B78404 /* TYTweetsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA47D11E4B756100B78404 /* TYTweetsTableViewCell.m */; };
 		14BACF9B1DF31EC100883A5F /* TYTweetsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BACF9A1DF31EC100883A5F /* TYTweetsTableViewController.m */; };
 		14BACF9E1DF31ED600883A5F /* TYLoginControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BACF9D1DF31ED600883A5F /* TYLoginControllerViewController.m */; };
 		14BACFA11DF31EE500883A5F /* TYNewTweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BACFA01DF31EE500883A5F /* TYNewTweetViewController.m */; };
@@ -32,10 +32,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04F438F51E49E16F0089A544 /* TYTweetsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTweetsTableViewCell.h; sourceTree = "<group>"; };
-		04F438F61E49E16F0089A544 /* TYTweetsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTweetsTableViewCell.m; sourceTree = "<group>"; };
-		04F438F91E4A29F00089A544 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
-		04F438FA1E4A29F00089A544 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		04CA47CC1E4B755800B78404 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		04CA47CD1E4B755800B78404 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		04CA47D01E4B756100B78404 /* TYTweetsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTweetsTableViewCell.h; sourceTree = "<group>"; };
+		04CA47D11E4B756100B78404 /* TYTweetsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTweetsTableViewCell.m; sourceTree = "<group>"; };
 		14062EF21E331CC100288CCE /* TweetMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TweetMe.entitlements; sourceTree = "<group>"; };
 		14BACF991DF31EC100883A5F /* TYTweetsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTweetsTableViewController.h; sourceTree = "<group>"; };
 		14BACF9A1DF31EC100883A5F /* TYTweetsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTweetsTableViewController.m; sourceTree = "<group>"; };
@@ -80,22 +80,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04F438F41E49E1380089A544 /* Views */ = {
+		04CA47CB1E4B755800B78404 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				04F438F51E49E16F0089A544 /* TYTweetsTableViewCell.h */,
-				04F438F61E49E16F0089A544 /* TYTweetsTableViewCell.m */,
+				04CA47CC1E4B755800B78404 /* Helper.h */,
+				04CA47CD1E4B755800B78404 /* Helper.m */,
 			);
-			name = Views;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
-		04F438F81E4A29AB0089A544 /* Helpers */ = {
+		04CA47CF1E4B756100B78404 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				04F438F91E4A29F00089A544 /* Helper.h */,
-				04F438FA1E4A29F00089A544 /* Helper.m */,
+				04CA47D01E4B756100B78404 /* TYTweetsTableViewCell.h */,
+				04CA47D11E4B756100B78404 /* TYTweetsTableViewCell.m */,
 			);
-			name = Helpers;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		14BACF981DF31E9200883A5F /* Controllers */ = {
@@ -142,9 +142,9 @@
 			isa = PBXGroup;
 			children = (
 				14062EF21E331CC100288CCE /* TweetMe.entitlements */,
-				04F438F81E4A29AB0089A544 /* Helpers */,
+				04CA47CB1E4B755800B78404 /* Helpers */,
 				14BACFA21DF33E8500883A5F /* Models */,
-				04F438F41E49E1380089A544 /* Views */,
+				04CA47CF1E4B756100B78404 /* Views */,
 				14BACF981DF31E9200883A5F /* Controllers */,
 				14D314481E3A3C850024E7B2 /* Resources */,
 				14C6A1961DF3174F00A9BD8C /* AppDelegate.h */,
@@ -351,11 +351,11 @@
 				14C6A1981DF3174F00A9BD8C /* AppDelegate.m in Sources */,
 				14C6A1951DF3174F00A9BD8C /* main.m in Sources */,
 				14BACF9B1DF31EC100883A5F /* TYTweetsTableViewController.m in Sources */,
-				04F438FB1E4A29F00089A544 /* Helper.m in Sources */,
 				14BACF9E1DF31ED600883A5F /* TYLoginControllerViewController.m in Sources */,
+				04CA47CE1E4B755800B78404 /* Helper.m in Sources */,
 				14BACFA11DF31EE500883A5F /* TYNewTweetViewController.m in Sources */,
+				04CA47D21E4B756100B78404 /* TYTweetsTableViewCell.m in Sources */,
 				14BACFA51DF33E8500883A5F /* TweetModel.m in Sources */,
-				04F438F71E49E16F0089A544 /* TYTweetsTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
